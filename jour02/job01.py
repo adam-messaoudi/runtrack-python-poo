@@ -19,7 +19,7 @@ class Rectangle:
 
 # Création d'un rectangle et modification de ses valeurs avec les mutateurs
 mon_rectangle = Rectangle(10, 5)
-mon_rectangle.setLongueur(15)
+mon_rectangle.setLongueur(17)
 mon_rectangle.setLargeur(8)
 
 # Vérification des modifications en imprimant les valeurs du rectangle
