@@ -11,10 +11,10 @@ class Personnage:
         self.x += 1  # Méthode pour déplacer le personnage vers la droite
     
     def bas(self):
-        self.y -= 1  # Méthode pour déplacer le personnage vers le bas
+        self.y -= 3  # Méthode pour déplacer le personnage vers le bas
     
     def haut(self):
-        self.y += 1  # Méthode pour déplacer le personnage vers le haut
+        self.y += 5 # Méthode pour déplacer le personnage vers le haut
     
     def position(self):
         return (self.x, self.y)  # Méthode pour obtenir la position actuelle du personnage
